@@ -1,0 +1,36 @@
+
+.row1{
+ display: grid;
+ grid-template-columns: repeat(4,120px);
+ grid-template-rows: repeat(5,60px);
+ 
+}
+
+.input-box div{
+    width: 476px;
+    padding: 2px;
+    background-color: black;
+    height: 120px;
+    text-align: end;
+    font-size: 48px;
+    color: white;
+
+}
+button, .btn1{
+    font-size: 26px;
+    background-color: white;
+    border:1px solid;
+    
+}
+.btn1{
+    grid-row-end: span 4;
+    background-color: rgb(218, 123, 34);
+}
+#add, #sub, #mul, #div{
+    background-color: rgb(217, 212, 212);
+}
+
+.main-border{
+    border-radius: 20px;
+    padding: 90px 150px;
+}
